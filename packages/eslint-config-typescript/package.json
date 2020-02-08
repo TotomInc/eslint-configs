@@ -2,16 +2,26 @@
   "name": "@totominc/eslint-config-typescript",
   "version": "0.0.1",
   "description": "Personal ESLint config for TypeScript projects: AirBnB and Prettier pre-configured.",
-  "main": "index.js",
   "author": "TotomInc <cazade.thomas@gmail.com>",
   "license": "MIT",
+  "main": "index.js",
   "files": [
     "README.md",
     "index.js",
     "prettier.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotomInc/eslint-configs.git"
+  },
   "scripts": {
     "eslint-check": "./node_modules/.bin/eslint --print-config ./index.js | ./node_modules/.bin/eslint-config-prettier-check"
+  },
+  "bugs": {
+    "url": "https://github.com/TotomInc/eslint-configs/issues"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.7.0",
