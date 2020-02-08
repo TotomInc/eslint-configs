@@ -1,6 +1,6 @@
 {
   "name": "@totominc/eslint-config-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Personal ESLint config for Vue + JS projects: AirBnB and Prettier pre-configured.",
   "author": "Thomas Cazade <cazade.thomas@gmail.com>",
   "homepage": "https://github.com/TotomInc/eslint-configs#readme",
