@@ -6,6 +6,7 @@ module.exports = {
     'plugin:vue/recommended',
     '@vue/airbnb',
     'plugin:prettier/recommended',
+    'prettier/vue',
   ],
 
   env: {
