@@ -28,6 +28,19 @@
    ```js
    module.exports = {
      extends: ['@totominc/typescript'],
+
+     parserOptions: {
+       project: './path/to/tsconfig.json',
+       tsconfigRootDir: '.',
+     },
+
+     settings: {
+       'import/resolver': {
+         typescript: {
+           'directory': './tsconfig.json',
+         },
+       }
+     },
    };
    ```
 
