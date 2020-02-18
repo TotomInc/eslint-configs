@@ -18,19 +18,19 @@
 ### Local/per-project installation
 
 1. Install all peer-dependencies from this package, this includes modules that are required by the
-   `@totominc/eslint-config-vue`:
+   `@totominc/eslint-config-vue-typescript`:
 
    ```bash
-   npx install-peerdeps --dev @totominc/eslint-config-vue@latest --yarn
+   npx install-peerdeps --dev @totominc/eslint-config-vue-typescript@latest --yarn
    ```
 
 2. Check your `package.json` for a list of dev-dependencies.
 
-3. Create an `.eslintrc.js` file configuration for ESLint in the root of your project. Then you can extend the ESLint configuration `@totominc/eslint-config-vue`:
+3. Create an `.eslintrc.js` file configuration for ESLint in the root of your project. Then you can extend the ESLint configuration `@totominc/eslint-config-vue-typescript`:
 
    ```js
    module.exports = {
-     extends: ['@totominc/vue'],
+     extends: ['@totominc/vue-typescript'],
    };
    ```
 
@@ -56,17 +56,17 @@ your `settings.json` like this:
 ### Global installation
 
 1. Install all peer-dependencies from this package, this includes modules that are required by the
-   `@totominc/eslint-config-vue`:
+   `@totominc/eslint-config-vue-typescript`:
 
    ```bash
-   npx install-peerdeps --global eslint-config-totominc@latest --yarn
+   npx install-peerdeps --global @totominc/eslint-config-vue-typescript@latest --yarn
    ```
 
 2. Create a global `.eslintrc.js` file configuration for ESLint in your home folder (e.g. `~/.eslintrc.js`). Then you
-   can extend one of the provided configurations from `@totominc/eslint-config-vue`:
+   can extend one of the provided configurations from `@totominc/eslint-config-vue-typescript`:
 
    ```js
    module.exports = {
-     extends: ['@totominc/vue'],
+     extends: ['@totominc/vue-typescript'],
    };
    ```
