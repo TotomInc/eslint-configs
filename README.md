@@ -4,12 +4,14 @@
 
 ## Configurations
 
-- `@totominc/javascript`: default configuration for pure JS projects, extends airbnb eslint-config and ships with an already configured prettier config.
+- `@totominc/javascript`: default configuration for pure JS projects.
 
-- `@totominc/typescript`: recommended configuration for pure TS projects, extends airbnb eslint-config for TypeScript. Set by default the parser to `@typescript-eslint/parser` with recent `ecmaVersion`.
+- `@totominc/typescript`: recommended configuration for pure TS projects, extends airbnb eslint-config for TypeScript.
 
-- `@totominc/vue`: recommended configuration for Vue.js projects initialized by the official Vue CLI tool. Extends airbnb eslint-config with specific rules for Vue projets. Also comes with prettier.
+- `@totominc/vue`: recommended configuration for Vue.js projects initialized with the official Vue CLI tool.
+
+- `@totominc/vue-typescript`: recommended configuration for Vue.js + TypeScript projects initialized with the official Vue CLI tool.
 
 ## Installation
 
-Check details in each eslint-config folder.
+View `README` of each config in the `packages` folder.
