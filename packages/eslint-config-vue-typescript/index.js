@@ -1,4 +1,15 @@
 module.exports = {
+  /**
+   * See https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error
+   */
+  parser: 'vue-eslint-parser',
+
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+    ecmaVersion: 2020,
+  },
+
   plugins: ['eslint-comments', 'vue', 'prettier'],
 
   extends: [
