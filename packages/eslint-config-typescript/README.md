@@ -69,7 +69,7 @@ your `settings.json` like this:
    `@totominc/eslint-config-typescript`:
 
    ```bash
-   npx install-peerdeps --global eslint-config-totominc@latest --yarn
+   npx install-peerdeps --global @totominc/eslint-config-typescript@latest --yarn
    ```
 
 2. Create a global `.eslintrc.js` file configuration for ESLint in your home folder (e.g. `~/.eslintrc.js`). Then you
