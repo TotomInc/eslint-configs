@@ -4,15 +4,15 @@
 
 ## Configurations available
 
-- `@totominc/javascript`: default configuration for JavaScript projects.
+- [`@totominc/javascript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-javascript): default configuration for JavaScript projects.
 
-- `@totominc/typescript`: configuration for TypeScript projects, extends `typescript-airbnb` ESLint config.
+- [`@totominc/typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-typescript): configuration for TypeScript projects, extends `typescript-airbnb` ESLint config.
 
-- `@totominc/react-typescript`: configuration for TypeScript + React projects.
+- [`@totominc/react-typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react-typescript): configuration for TypeScript + React projects.
 
-- `@totominc/vue`: configuration for Vue.js projects initialized with the official Vue CLI tool.
+- [`@totominc/vue`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-vue): configuration for Vue.js projects initialized with the official Vue CLI tool.
 
-- `@totominc/vue-typescript`: configuration for Vue.js + TypeScript projects initialized with the official Vue CLI tool.
+- [`@totominc/vue-typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-vue-typescript): configuration for Vue.js + TypeScript projects initialized with the official Vue CLI tool.
 
 ## Install an ESLint config
 
