@@ -1,0 +1,42 @@
+{
+  "name": "@totominc/eslint-config-react-typescript",
+  "version": "0.1.0",
+  "description": "Personal ESLint config for TypeScript + React projects: AirBnB and Prettier pre-configured.",
+  "author": "TotomInc <cazade.thomas@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js",
+    "prettier.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotomInc/eslint-configs.git"
+  },
+  "scripts": {
+    "eslint-check": "./node_modules/.bin/eslint --print-config ./index.js | ./node_modules/.bin/eslint-config-prettier-check"
+  },
+  "bugs": {
+    "url": "https://github.com/TotomInc/eslint-configs/issues"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.19.0"
+  }
+}
