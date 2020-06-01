@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react",
+  "name": "@totominc/eslint-config-react",
   "version": "0.1.1",
   "description": "Personal ESLint config for React projects: AirBnB and Prettier pre-configured.",
   "author": "TotomInc <cazade.thomas@gmail.com>",
@@ -40,5 +40,6 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "prettier": "^2.0.5"
-  }
+  },
+  "gitHead": "0e0fd5fb25ff78a35c6e55198162ca23eff0c39d"
 }
