@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Personal ESLint config for React projects: AirBnB and Prettier pre-configured.",
   "author": "TotomInc <cazade.thomas@gmail.com>",
   "license": "MIT",
