@@ -1,6 +1,6 @@
 {
   "name": "@totominc/eslint-config-react-typescript",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Personal ESLint config for TypeScript + React projects: AirBnB and Prettier pre-configured.",
   "author": "TotomInc <cazade.thomas@gmail.com>",
   "license": "MIT",
