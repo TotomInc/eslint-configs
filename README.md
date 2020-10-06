@@ -8,7 +8,9 @@
 
 - [`@totominc/typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-typescript): configuration for TypeScript projects, extends `typescript-airbnb` ESLint config.
 
-- [`@totominc/react-typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react-typescript): configuration for TypeScript + React projects.
+- [`@totominc/react`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react): configuration for JavaScript React projects (recommended alongside create-react-app).
+
+- [`@totominc/react-typescript`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react-typescript): configuration for TypeScript React projects (recommended alongside create-react-app).
 
 - [`@totominc/vue`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-vue): configuration for Vue.js projects initialized with the official Vue CLI tool.
 
