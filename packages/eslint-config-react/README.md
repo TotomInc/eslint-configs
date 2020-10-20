@@ -1,66 +1,45 @@
 # @totominc/eslint-config-react
 
-> Personal ESLint config for React projects: AirBnB and Prettier pre-configured.
+> Personal ESLint config for React. Includes support for TypeScript. Airbnb + TypeScript + Prettier pre-configured and some extras.
 
 ## About this configuration
 
-- Add `eslint-comments` plugin for better `// eslint` comments control.
-- Add `airbnb`, includes `eslint-config-airbnb` with various ESLint React rules (hooks, a11y, ...).
-- Add Prettier with pre-defined configuration (you can easily edit it in your own `.eslintrc`).
+- Add `eslint-comments` plugin for better `// eslint` comments control and avoid abuse.
+- Enforce a11y best-practices with `jsx-a11y`.
+- This config is based on `airbnb` config, it will use `airbnb-typescript` for TypeScript variant.
+- Add Prettier with a pre-defined configuration (can be overridden).
+- Enable recommended rules for Jest unit-testing.
 
 ## Installation
 
-### Local/per-project installation
+1. Install peer-dependencies required for this ESLint config:
 
-1. Install all peer-dependencies from this package, this includes modules that are required by the
-   `@totominc/eslint-config-react`:
+   - For JavaScript projects:
 
-   ```bash
-   npx install-peerdeps --dev @totominc/eslint-config-react@latest --yarn
-   ```
+      ```bash
+      yarn add -D babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
+      ```
 
-2. Check your `package.json` for a list of dev-dependencies.
+   - For TypeScript projects:
+   
+      ```bash
+      yarn add -D @typescript-eslint/eslint-plugin@^4.1.0 @typescript-eslint/parser@^4.1.0 babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
+      ```
 
-3. Create an `.eslintrc.js` file configuration for ESLint in the root of your project. Then you can extend the ESLint configuration `@totominc/eslint-config-react`:
-
-   ```js
-   module.exports = {
-     extends: ['@totominc/react'],
-   };
-   ```
-
-**Note:** you may want to configure your IDE to automatically fix on save. For VSCode, you can use the
-[`vscode-eslint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension and configure your `settings.json` like this:
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ]
-}
-```
-
-### Global installation
-
-1. Install all peer-dependencies from this package, this includes modules that are required by the
-   `@totominc/eslint-config-react`:
-
-   ```bash
-   npx install-peerdeps --global @totominc/eslint-config-react@latest --yarn
-   ```
-
-2. Create a global `.eslintrc.js` file configuration for ESLint in your home folder (e.g. `~/.eslintrc.js`). Then you
-   can extend one of the provided configurations from `@totominc/eslint-config-react`:
+2. Create an `.eslintrc.js` at the root of your project. Then you can extend the ESLint configuration `@totominc/eslint-config-react` like below:
 
    ```js
-   module.exports = {
-     extends: ['@totominc/react'],
-   };
+    module.exports = {
+      extends: ['@totominc/react'],
+
+      // This is required if you are using the TypeScript variant of the ESLint config.
+      parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: ['./tsconfig.json'],
+      },
+    };
    ```
+
+## License
+
+MIT license, please see the LICENSE file in this project.
