@@ -17,13 +17,13 @@
    - For JavaScript projects:
 
       ```bash
-      yarn add -D babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
+      yarn add -D @totominc/eslint-config-react@latest babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
       ```
 
    - For TypeScript projects:
    
       ```bash
-      yarn add -D @typescript-eslint/eslint-plugin@^4.1.0 @typescript-eslint/parser@^4.1.0 babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
+      yarn add -D @totominc/eslint-config-react@latest @typescript-eslint/eslint-plugin@^4.1.0 @typescript-eslint/parser@^4.1.0 babel-eslint@^10.0.0 eslint eslint-config-airbnb@^18.2.0 eslint-config-prettier@^6.12.0 eslint-plugin-eslint-comments@^3.2.0 eslint-plugin-import@^2.22.1 eslint-plugin-jest@^24.1.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-prettier@^3.1.4 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.21.3 eslint-plugin-react-hooks@^4.1.2 prettier@^2.1.2
       ```
 
 2. Create an `.eslintrc.js` at the root of your project. Then you can extend the ESLint configuration `@totominc/eslint-config-react` like below:
