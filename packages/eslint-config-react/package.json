@@ -1,16 +1,18 @@
 {
   "name": "@totominc/eslint-config-react",
   "version": "0.2.1",
-  "description": "Personal ESLint config for React. Includes support for TypeScript. Airbnb + TypeScript + Prettierc pre-configured and some extras.",
+  "description": "Personal ESLint config for React.",
   "author": "TotomInc <cazade.thomas@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "LICENSE",
     "README.md",
+    "lib/",
     ".eslintrc.js",
     ".prettierrc.js",
-    "index.js"
+    "index.js",
+    "typescript.js"
   ],
   "publishConfig": {
     "access": "public"
