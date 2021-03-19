@@ -13,12 +13,11 @@ module.exports = {
 
   files: ['**/*.js?(x)'],
 
-  plugins: ['eslint-comments', 'jsx-a11y', 'prettier', 'jest'],
+  plugins: ['eslint-comments', 'jsx-a11y', 'prettier'],
 
   extends: [
     'plugin:eslint-comments/recommended',
     'plugin:promise/recommended',
-    'plugin:jest/recommended',
 
     'airbnb',
     'airbnb/hooks',
@@ -47,12 +46,11 @@ module.exports = {
         warnOnUnsupportedTypeScriptVersion: true,
       },
 
-      plugins: ['@typescript-eslint', 'eslint-comments', 'jsx-a11y', 'prettier', 'jest'],
+      plugins: ['@typescript-eslint', 'eslint-comments', 'jsx-a11y', 'prettier'],
 
       extends: [
         'plugin:eslint-comments/recommended',
         'plugin:promise/recommended',
-        'plugin:jest/recommended',
 
         'airbnb-typescript',
         'airbnb/hooks',

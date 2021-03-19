@@ -26,7 +26,7 @@ This is an hybrid ESLint config which works for both JavaScript and TypeScript p
 
    ```js
    module.exports = {
-      extends: '@totominc/react',
+      extends: ['@totominc/react'],
 
       // Add this part if you are using the ESLint config on a TypeScript project
       parserOptions: {
@@ -35,6 +35,18 @@ This is an hybrid ESLint config which works for both JavaScript and TypeScript p
       },
    };
    ```
+
+### Jest & Testing-Library support
+
+If your project contains unit-tests written with Jest and Testing-Library (for React), you can extend the ESLint config by doing the following:
+
+```js
+module.exports = {
+   extends: ['@totominc/react', '@totominc/react/jest'],
+};
+```
+
+Jest ESLint rules will only applies on the test files matching `**/__tests__/**/*` and `**/*.{spec,test}.*`.
 
 ## License
 
