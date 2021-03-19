@@ -1,5 +1,9 @@
+'use strict';
+
 module.exports = {
   parser: 'babel-eslint',
+
+  ignorePatterns: ['node_modules/', 'coverage/', 'dist/'],
 
   env: {
     browser: true,
@@ -10,7 +14,7 @@ module.exports = {
   },
 
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -27,5 +31,9 @@ module.exports = {
     },
   },
 
-  ignorePatterns: ['node_modules/', 'coverage/', 'dist/'],
+  rules: {
+    'react/jsx-uses-vars': 'warn',
+    'react/jsx-uses-react': 'warn',
+  },
 };
+
