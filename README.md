@@ -2,8 +2,7 @@
 
 ## Configurations available
 
-- [`@totominc/react`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react): support for JavaScript + React projects.
-   - Includes `@totominc/react/typescript` for TypeScript + React projects.
+- [`@totominc/react`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react): JavaScript + TypeScript React projects.
 
 ## Install an ESLint config
 
