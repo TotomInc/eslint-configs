@@ -25,8 +25,6 @@ module.exports = {
     'eslint:recommended',
 
     'plugin:prettier/recommended',
-    'prettier/babel',
-    'prettier/react',
   ],
 
   overrides: [
@@ -60,8 +58,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
 
         'plugin:prettier/recommended',
-        'prettier/@typescript-eslint',
-        'prettier/react',
       ],
 
       rules: {
