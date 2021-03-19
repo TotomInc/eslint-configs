@@ -11,8 +11,6 @@ const restrictedGlobals = require('confusing-browser-globals');
 module.exports = {
   extends: [require.resolve('./base')],
 
-  files: ['**/*.js?(x)'],
-
   plugins: ['eslint-comments', 'jsx-a11y', 'prettier'],
 
   extends: [
