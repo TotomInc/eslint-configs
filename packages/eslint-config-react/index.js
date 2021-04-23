@@ -68,6 +68,8 @@ module.exports = {
         // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/477)
         'no-undef': 'off',
 
+        'import/prefer-default-export': 'off',
+
         // Add TypeScript specific rules (and turn off ESLint equivalents)
         '@typescript-eslint/consistent-type-assertions': 'warn',
         'no-array-constructor': 'off',
@@ -109,5 +111,6 @@ module.exports = {
     ],
 
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
+    'prefer-destructuring': 'off',
   },
 };
