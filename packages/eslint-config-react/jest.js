@@ -17,5 +17,12 @@ module.exports = {
         'jest/globals': true,
       },
     },
+    {
+      files: ['**/__tests__/**/*.{ts,tsx}', '**/*.{spec,test}.{ts,tsx}'],
+
+      rules: {
+        '@typescript-eslint/unbound-method': 'off',
+      },
+    },
   ],
 };
