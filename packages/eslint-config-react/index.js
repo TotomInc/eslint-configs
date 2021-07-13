@@ -87,6 +87,9 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
 
+    // Deprecated rule from jsx-a11y
+    'jsx-a11y/accessible-emoji': 'off',
+
     'prettier/prettier': [
       'error',
       {
